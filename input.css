@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Suas customizações */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+}
+.text-brand { color: #fbbf24; }
+.bg-brand { background-color: #fbbf24; }
+.border-brand { border-color: #fbbf24; }
+.glow-img {
+    filter: drop-shadow(0 0 25px rgba(251, 191, 36, 0.15));
+}
